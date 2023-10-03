@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device width, initial-scale=1.0">
+    <title>DISNEY+</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <nav class="navbar">
+        <img src="./images/logo.png" class="brandlogo" alt="Disney+ logo">
+        <ul class="nav-links">
+            <li class="nav-items"><a href="#">TV</a></li>
+            <li class="nav-items"><a href="#">Movies</a></li>
+            <li class="nav-items"><a href="#">Sports</a></li>
+            <li class="nav-items"><a href="#">Premium</a></li>
+        </ul>
+
+        <div class="right-container">
+            <input type="text" class="search-box" placeholder="Search">
+            <button class="sub-btn">Subscribe</button>
+            <a href="#" class="login-link">Login</a> 
+        </div>
+    </nav>
+
+    <div class="carousel-container">
+        <div class="carousel">
+            <!--div class="slider">
+                <div class="slide-content">
+                    <h1 class="movie-title">Loki</h1>
+                    <p class="movie-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!</p>
+                </div>
+                <img src="./images/slider 1.PNG" alt="Loki">
+            </div-->
+        </div>
+    </div>
+
+    <div class="video-container">
+        <div class="video-card">
+            <img src="./images/disney.PNG" class="video-card-image" alt="">
+            <video src="./videos/disney.mp4" mute loop class="card-video"></video>
+        </div>
+        <div class="video-card">
+            <img src="./images/pixar.PNG" class="video-card-image" alt="">
+            <video src="./videos/pixar.mp4" mute loop class="card-video"></video>
+        </div>
+        <div class="video-card">
+            <img src="./images/marvel.PNG" class="video-card-image" alt="">
+            <video src="./videos/marvel.mp4" mute loop class="card-video"></video>
+        </div>
+        <div class="video-card">
+            <img src="./images/star-wars.PNG" class="video-card-image" alt="">
+            <video src="./videos/star-war.mp4" mute loop class="card-video"></video>
+        </div>
+        <div class="video-card">
+            <img src="./images/geographic.PNG" class="video-card-image" alt="">
+            <video src="./videos/geographic.mp4" mute loop class="card-video"></video>
+        </div>
+    </div>
+    
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
